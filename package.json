@@ -26,8 +26,8 @@
     "typescript": "5.7.2"
   },
   "scripts": {
-    "dev": "moon run :dev",
-    "build": "moon run :build",
+    "dev": "node init && moon run :dev",
+    "build": "node init && moon run :build",
     "lint": "moon run :lint",
     "lint:fix": "moon run :lint-fix",
     "typecheck": "moon run :typecheck",

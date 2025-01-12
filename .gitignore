@@ -2,8 +2,6 @@
 node_modules
 .DS_Store
 playground
-.env
-.env.production
 config.json5
 exchanges.json5
 .vercel
@@ -27,3 +25,4 @@ tsconfig.tsbuildinfo
 # moon
 .moon/cache
 .moon/docker
+config.bat
